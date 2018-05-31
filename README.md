@@ -1,25 +1,35 @@
-# README
+<div align="center">
+<h1>Idea Board</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<a href="https://www.emojione.com/emoji/1f4a1">
+<img height="80" width="80" alt="palette" src="https://user-images.githubusercontent.com/26611339/40788877-100f43bc-64bf-11e8-89a6-8e6d0d164475.png" />
+</a>
 
-Things you may want to cover:
+<p> An Idea Board built with Rails & React. </p>
+</div>
 
-* Ruby version
+<hr />
 
-* System dependencies
 
-* Configuration
+[![GitHub followers](https://img.shields.io/github/followers/christiandavidturner.svg?style=social&label=Follow)](http://github.com/christiandavidturner) [![Twitter Follow](https://img.shields.io/twitter/follow/imcdt.svg?style=social&label=Follow)](https://twitter.com/imcdt)
 
-* Database creation
 
-* Database initialization
+## Table of Contents
 
-* How to run the test suite
+* [Overview](#overview)
+* [Tools](#tools)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+# Overview
 
-* ...
-# Idea-Board
+An Idea Board built with Rails & React. Create-React-App was used to scaffold the frontend. Rails was used for the api configuration. I deployed the final project to Heroku. You can see the final project [here](#).
+
+
+# Tools
+
+- Rails
+- React
+- Axios
+- SQLite 3
+- Postgres
+- Heroku

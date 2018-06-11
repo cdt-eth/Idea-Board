@@ -21,7 +21,7 @@
 
 An Idea Board built with Rails & React. Create-React-App was used to scaffold the frontend. Rails was used for the api configuration. It has endpoints for adding ideas as well as editing and deleting them. I used Axios to make async requests to our rails app to populate the data and create new ideas. I enabled CORS to allow us to make these requests.
 
-SQLite is the db used in development by default but Postgres is used for production to play well with Heroku, where I deployed the final project. You can see the final project [here](#).
+For the Rails portion (the api), SQLite was the db used in development by default but Postgres had to be used for production to play well with Heroku. I deployed the React portion (the UI) to Firebase. You can see the final project [here](#).
 
 # Tools
 
@@ -31,4 +31,5 @@ SQLite is the db used in development by default but Postgres is used for product
 - SQLite 3
 - Postgres
 - Rack/Cors
-- Heroku
+- Firebase (ui)
+- Heroku (api)

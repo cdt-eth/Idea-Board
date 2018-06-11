@@ -14,19 +14,21 @@
 
 ## Table of Contents
 
-* [Overview](#overview)
-* [Tools](#tools)
+- [Overview](#overview)
+- [Tools](#tools)
 
 # Overview
 
-An Idea Board built with Rails & React. Create-React-App was used to scaffold the frontend. Rails was used for the api configuration. I deployed the final project to Heroku. You can see the final project [here](#).
+An Idea Board built with Rails & React. Create-React-App was used to scaffold the frontend. Rails was used for the api configuration. It has endpoints for adding ideas as well as editing and deleting them. I used Axios to make async requests to our rails app to populate the data and create new ideas. I enabled CORS to allow us to make these requests.
+
+SQLite is the db used in development by default but Postgres is used for production to play well with Heroku, where I deployed the final project. You can see the final project [here](#).
 
 # Tools
 
-* Rails
-* React
-* Axios
-* SQLite 3
-* Postgres
-* Rack/Cors
-* Heroku
+- Rails
+- React
+- Axios
+- SQLite 3
+- Postgres
+- Rack/Cors
+- Heroku
